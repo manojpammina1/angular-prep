@@ -1,0 +1,14 @@
+<div class="row">
+  <table>
+    <thead>
+    <tr>
+      <th>Sr No</th>
+      <th>Role Name</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let item of roleList; let srno = index">
+      <td>{{srno+1}}</td>
+      <td>{{item.role}}</td>
+  </table>
+</div>
